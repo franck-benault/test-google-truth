@@ -17,15 +17,17 @@ public class JUnitTestCase {
 	
 	@Test
 	public void t02aAssertEquals() {
-		
-		Truth.assertThat("String").isEqualTo("String");
+		String val1 = "String";
+		String val2 = "String";
+		Truth.assertThat(val1).isEqualTo(val2);
 
 	}
 	
 	@Test
 	public void t02bAssertNotEquals() {
-		
-		Truth.assertThat("String1").isNotEqualTo("String2");
+		String val1 = "String1";
+		String val2 = "String2";
+		Truth.assertThat(val1).isNotEqualTo(val2);;
 
 	}
 	
