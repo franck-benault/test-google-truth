@@ -1,4 +1,4 @@
-package net.franckbenault.testgoogletruth;
+package net.franckbenault.testgoogletruth.assertion.s02comparable;
 
 import org.junit.Test;
 

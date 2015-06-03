@@ -1,4 +1,4 @@
-package net.franckbenault.testgoogletruth;
+package net.franckbenault.testgoogletruth.assertion.s01basicjunit;
 
 import org.junit.Test;
 
