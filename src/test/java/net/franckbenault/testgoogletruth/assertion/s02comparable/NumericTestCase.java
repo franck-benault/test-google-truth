@@ -9,6 +9,7 @@ public class NumericTestCase {
 	@Test
 	public void testGreaterThan() {
 		int val =6;
+		//val > 5
 		Truth.assertThat(val).isGreaterThan(5);
 	}
 
@@ -16,6 +17,7 @@ public class NumericTestCase {
 	@Test
 	public void testAtLeast() {
 		int val =6;
+		// val >= 6
 		Truth.assertThat(val).isAtLeast(6);
 	}
 }
