@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import com.google.common.truth.Truth;
 
-public class AssertionTestCase {
+public class StringTestCase {
 
 	@Test
 	public void test() {
